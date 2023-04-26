@@ -1,5 +1,8 @@
 # Book-store-transaction-data-pipeline
-This project was created as part of R2DE's course 
+Simple data pipeline project
+- most of the process of this pipeline uses GCP's environment.
+## Data Pipeline Architecture 
+<img src="https://github.com/chinxtd/book-store-data-pipeline/blob/main/image/BOOK%20STORE%20DATA%20PIPELINE.png" alt="data_architecture">
 
 ## Technology Stack
 - Data Lake: Google Cloud Storage(GCS) 
@@ -27,3 +30,12 @@ This project was created as part of R2DE's course
 | date	|	The date the book has been purchased |		
 | conversion_rate	|	the conversion rate of [ USD - THB ] changed by the date of purchasing |
 | THBPrice | The price of the book in Thai baht |
+
+## Replication
+
+## Dashboard / Visualization
+### Overview
+<img src="https://github.com/chinxtd/book-store-data-pipeline/blob/main/dashboard/Overview.png" alt="overview_data">
+
+### Book by Revenue 
+<img src="https://github.com/chinxtd/book-store-data-pipeline/blob/main/dashboard/Book-by-Revenue.png" alt="book_revenue_data">
