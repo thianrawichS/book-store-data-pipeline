@@ -1,4 +1,4 @@
-# book-store-data-pipeline
+# Book-store-transaction-data-pipeline
 This project was created as part of R2DE's course 
 
 ## Technology Stack
