@@ -32,6 +32,7 @@ Simple data pipeline project
 | THBPrice | The price of the book in Thai baht |
 
 ## Replication
+- coming soon!
 
 ## Dashboard / Visualization
 ### Overview
