@@ -1,6 +1,6 @@
 # Book store transaction Data pipeline
 The transaction's data of customers who purchased the book.
-- This data pipeline built to find the specific of data like :
+- This data pipeline built to find the specific insight of data like :
   - What is the best selling book and category?
   - Which country do most customers come from?
 - most of the process in this pipeline uses GCP's environment.
