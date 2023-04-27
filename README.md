@@ -49,6 +49,8 @@ Simple data pipeline project
   - if nothing wrong, your dags's graph view will look like picture below
   <img src="https://github.com/chinxtd/book-store-data-pipeline/blob/main/image/DAGs%20Graph%20view.png" alt="dags_graph_view">
   
+  ### ***don't forget to delete the Cloud Composer Environment after finished, the price is quite high.***
+  
 
 ## Dashboard / Visualization
 To visualize this data with looker studio:
