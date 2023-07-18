@@ -7,7 +7,7 @@ import requests
 
 
 MYSQL_CONNECTION = "mysql_default"
-CONVERSION_RATE_URL = "https://r2de2-workshop-vmftiryt6q-ts.a.run.app/usd_thb_conversion_rate"
+CONVERSION_RATE_URL = "{{conversion_rate_url}}"
 default_args = {}
 
 
