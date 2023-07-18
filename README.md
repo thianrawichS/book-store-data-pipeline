@@ -1,4 +1,4 @@
-# Book store transaction Data pipeline
+# Bookstore Transaction Data pipeline
 The transaction's data of customers who purchased the book.
 - This data pipeline built to find the specific insight of data like :
   - What is the best selling book and category?
