@@ -77,7 +77,7 @@ def get_merge_data(data_target_path, conversion_target_path, output_path):
     print(f"output to {output_path}")
 
 
-@dag(default_args=default_args, start_date=days_ago(1), schedule_interval="@once", tags=["workshop"])
+@dag(default_args=default_args, start_date=days_ago(1), schedule_interval="@once", tags=["practice"])
 def dag_taskflow():
     
     t1 = get_data_from_mysql(mysql_output_path)
@@ -87,7 +87,7 @@ def dag_taskflow():
         bash_command="bq load \
             --source_format=CSV \
             --autodetect \
-            workshop5.audible_data \
+            practice.audible_data \
             gs://asia-southeast1-ws5-8cccf362-bucket/data/output.csv",
         task_id="upload_to_bq"
     )
