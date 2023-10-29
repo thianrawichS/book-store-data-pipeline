@@ -7,7 +7,7 @@ import requests
 
 
 MYSQL_CONNECTION = "mysql_default"
-CONVERSION_RATE_URL = "{{conversion_rate_url}}"
+CONVERSION_RATE_URL = ""
 default_args = {}
 
 
@@ -88,7 +88,7 @@ def dag_taskflow():
             --source_format=CSV \
             --autodetect \
             practice.audible_data \
-            gs://asia-southeast1-ws5-8cccf362-bucket/data/output.csv",
+            ***destination_path***/output.csv",
         task_id="upload_to_bq"
     )
     #task dependencies
